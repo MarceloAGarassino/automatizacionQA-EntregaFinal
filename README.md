@@ -1,6 +1,4 @@
-# Proyecto Final - Automatizacion de Pruebas
-
-Este proyecto implementa un framework de automatizacion de pruebas con Python, Selenium y Pytest para un sitio web demo (Swag Labs). Ademas incluye pruebas de API con Requests y reportes HTML con capturas de pantalla al fallar.
+# Proyecto Final - Automatizacion de Pruebas - Marcelo A. Garassino
 
 ## Objetivo
 
@@ -21,7 +19,7 @@ Desarrollar un framework de automatizacion completo que combine:
 - Selenium WebDriver
 - Requests
 - Pytest HTML
-- GitHub Actions
+
 
 ## Estructura del proyecto
 
@@ -78,15 +76,10 @@ pytest tests/test_api.py
 
 Los reportes HTML se generan en `repots/reporte.html`. Si alguna prueba falla, el framework guarda automaticamente una captura de pantalla en la carpeta `repots/screenshots` y la adjunta al reporte.
 
-## Repositorio
-
-El nombre sugerido para el repositorio es:
-
-`proyecto-final-automation-testing-[nombre-apellido]`
 
 ## Notas
 
 - Las pruebas son independientes entre si.
 - Se utiliza un archivo JSON para los datos de prueba.
 - Los flujos de UI siguen el patron Page Object Model.
-- La configuracion de CI/CD se encuentra en `.github/workflows/ci.yml`.
+
